@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 1961
+  Height = 255
+  Top = 173
+  Width = 434
+  Caption = 'Form1'
+  ClientHeight = 255
+  ClientWidth = 434
+  LCLVersion = '2.0.12.0'
+  object Button1: TButton
+    Left = 32
+    Height = 25
+    Top = 24
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 144
+    Height = 33
+    Top = 24
+    Width = 248
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 15
+    Top = 56
+    Width = 45
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 32
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Memo1: TMemo
+    Left = 144
+    Height = 90
+    Top = 112
+    Width = 248
+    Lines.Strings = (
+      'Memo1'
+    )
+    ScrollBars = ssAutoVertical
+    TabOrder = 3
+  end
+  object Edit2: TEdit
+    Left = 144
+    Height = 33
+    Top = 64
+    Width = 248
+    TabOrder = 4
+    Text = 'Edit2'
+  end
+end
